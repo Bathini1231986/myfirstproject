@@ -24,7 +24,7 @@ public class GooglePage {
 	}
 	
 	@Test
-	public void Logout()
+	public void logout()
 	{
 		driver.findElement(By.id("logout")).click();
 	}
