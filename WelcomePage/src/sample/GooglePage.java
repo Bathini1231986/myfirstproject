@@ -29,4 +29,9 @@ public class GooglePage {
 		driver.findElement(By.id("logout")).click();
 	}
 	
+	public void sendText()
+	{
+		System.out.println("This method is add to send the text");
+	}
+	
 }
